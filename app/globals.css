@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Tithe — boutique-wellness palette. Soft, suspiciously calm.
+   Not cream+serif+terracotta. Cool lilac mist, deep plum ink,
+   sage (calming AND money-green), lavender, blush. */
+:root {
+  --mist: #ece8f2;
+  --mist-2: #e3def0;
+  --paper: #fbfafd;
+  --ink: #3a3148;
+  --ink-soft: #6f6880;
+  --sage: #8aa888;
+  --sage-deep: #5d7a5b;
+  --lilac: #b6a4da;
+  --lilac-deep: #7e6bb0;
+  --blush: #e8c5c1;
+  --line: #ddd6ea;
+}
+
+@theme inline {
+  --color-mist: var(--mist);
+  --color-mist-2: var(--mist-2);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-sage: var(--sage);
+  --color-sage-deep: var(--sage-deep);
+  --color-lilac: var(--lilac);
+  --color-lilac-deep: var(--lilac-deep);
+  --color-blush: var(--blush);
+  --color-line: var(--line);
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-nunito);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--mist);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* visible keyboard focus, calm but unmistakable */
+:focus-visible {
+  outline: 2px solid var(--lilac-deep);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
