@@ -111,6 +111,16 @@
   --ck-line: #d9dee6;
   --ck-accent: #00a3a3;
   --ck-flag: #e5484d;
+
+  /* gatekeep — boutique gallery. Cool greige, near-black ink, one
+     emerald jewel tone + muted gold. Not cream+serif+terracotta. */
+  --gk-bg: #edeeec;
+  --gk-surface: #ffffff;
+  --gk-ink: #1a1c1a;
+  --gk-muted: #6b6f6a;
+  --gk-line: #d8dad6;
+  --gk-accent: #0f6b4f;
+  --gk-gold: #b08948;
 }
 
 @theme inline {
@@ -226,6 +236,16 @@
   --color-ck-flag: var(--ck-flag);
   --font-ck-display: var(--font-space-mono);
   --font-ck-body: var(--font-plex-sans);
+
+  --color-gk-bg: var(--gk-bg);
+  --color-gk-surface: var(--gk-surface);
+  --color-gk-ink: var(--gk-ink);
+  --color-gk-muted: var(--gk-muted);
+  --color-gk-line: var(--gk-line);
+  --color-gk-accent: var(--gk-accent);
+  --color-gk-gold: var(--gk-gold);
+  --font-gk-display: var(--font-syne);
+  --font-gk-body: var(--font-outfit);
 }
 
 html {

@@ -88,6 +88,14 @@ const portfolio = [
     accent: "var(--ck-accent)",
     chip: "var(--ck-accent)",
   },
+  {
+    name: "gatekeep",
+    href: "/gatekeep",
+    category: "lifestyle",
+    line: "The anti-recommendation engine. A vault that hides the good things you find from your friends, so you stay the one with taste.",
+    accent: "var(--gk-accent)",
+    chip: "var(--gk-accent)",
+  },
 ];
 
 export default function StudioIndex() {
