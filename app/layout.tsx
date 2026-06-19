@@ -16,9 +16,9 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Tithe — mindful spending for your attention",
+  title: "Department of Unmet Needs — a venture studio",
   description:
-    "Tithe charges you a small, conscious amount every time you open Instagram. Reclaim your attention, one transaction at a time.",
+    "A venture studio shipping convincingly-designed solutions to problems we invented. A portfolio of fake startups that are technically jokes and emotionally real.",
 };
 
 export default function RootLayout({

@@ -19,7 +19,7 @@ export default function Footer() {
             href="/"
             className="mt-4 inline-block font-sq-pixel text-[10px] text-sq-accent hover:underline"
           >
-            ↳ our other startups (Tithe)
+            ↳ Department of Unmet Needs
           </Link>
         </div>
 
