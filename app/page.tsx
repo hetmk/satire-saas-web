@@ -80,6 +80,14 @@ const portfolio = [
     accent: "var(--bf-beige)",
     chip: "var(--bf-beige)",
   },
+  {
+    name: "clanker",
+    href: "/clanker",
+    category: "security",
+    line: "An AI detector that flags humans as bots. In testing it flagged 98% of people — including its own engineers. Dead internet, verified.",
+    accent: "var(--ck-accent)",
+    chip: "var(--ck-accent)",
+  },
 ];
 
 export default function StudioIndex() {

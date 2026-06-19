@@ -101,6 +101,16 @@
   --bf-red: #ff5d5d;
   --bf-green: #5ec77f;
   --bf-beige: #c9a87c;
+
+  /* clanker — clean forensic lab. Cool light, ink, teal scanner, red flag.
+     Mono-forward, not the dark acid-green terminal cliche. */
+  --ck-bg: #eef1f4;
+  --ck-surface: #ffffff;
+  --ck-ink: #14181f;
+  --ck-muted: #687180;
+  --ck-line: #d9dee6;
+  --ck-accent: #00a3a3;
+  --ck-flag: #e5484d;
 }
 
 @theme inline {
@@ -206,6 +216,16 @@
   --color-bf-beige: var(--bf-beige);
   --font-bf-display: var(--font-quicksand);
   --font-bf-body: var(--font-nunito-sans);
+
+  --color-ck-bg: var(--ck-bg);
+  --color-ck-surface: var(--ck-surface);
+  --color-ck-ink: var(--ck-ink);
+  --color-ck-muted: var(--ck-muted);
+  --color-ck-line: var(--ck-line);
+  --color-ck-accent: var(--ck-accent);
+  --color-ck-flag: var(--ck-flag);
+  --font-ck-display: var(--font-space-mono);
+  --font-ck-body: var(--font-plex-sans);
 }
 
 html {
