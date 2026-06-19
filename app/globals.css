@@ -121,6 +121,16 @@
   --gk-line: #d8dad6;
   --gk-accent: #0f6b4f;
   --gk-gold: #b08948;
+
+  /* NPC — livestream-overlay neon on near-black. Magenta, cyan, gift gold. */
+  --np-bg: #0a0b14;
+  --np-surface: #14162a;
+  --np-line: #262a48;
+  --np-ink: #f2f3ff;
+  --np-muted: #8b90c0;
+  --np-pink: #ff3ea5;
+  --np-cyan: #2fe6e0;
+  --np-gold: #ffd23f;
 }
 
 @theme inline {
@@ -246,6 +256,17 @@
   --color-gk-gold: var(--gk-gold);
   --font-gk-display: var(--font-syne);
   --font-gk-body: var(--font-outfit);
+
+  --color-np-bg: var(--np-bg);
+  --color-np-surface: var(--np-surface);
+  --color-np-line: var(--np-line);
+  --color-np-ink: var(--np-ink);
+  --color-np-muted: var(--np-muted);
+  --color-np-pink: var(--np-pink);
+  --color-np-cyan: var(--np-cyan);
+  --color-np-gold: var(--np-gold);
+  --font-np-display: var(--font-rubik);
+  --font-np-body: var(--font-dm-sans);
 }
 
 html {

@@ -96,6 +96,14 @@ const portfolio = [
     accent: "var(--gk-accent)",
     chip: "var(--gk-accent)",
   },
+  {
+    name: "NPC",
+    href: "/npc",
+    category: "creator economy",
+    line: "Become a livestream NPC for passive income. We send the gifts, you do the gestures. Ice cream so good. Gang gang.",
+    accent: "var(--np-pink)",
+    chip: "var(--np-pink)",
+  },
 ];
 
 export default function StudioIndex() {
