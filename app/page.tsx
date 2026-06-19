@@ -64,6 +64,14 @@ const portfolio = [
     accent: "var(--li-focus)",
     chip: "var(--li-focus)",
   },
+  {
+    name: "mid",
+    href: "/mid",
+    category: "media",
+    line: "A review app that rates everything 2.5/5 so you never have to form an opinion again. Restaurants? Mid. This? Mid.",
+    accent: "var(--md-accent)",
+    chip: "var(--md-accent)",
+  },
 ];
 
 export default function StudioIndex() {

@@ -81,6 +81,15 @@
   --li-line: #e3e5ea;
   --li-live: #ff3b30;
   --li-focus: #16a34a;
+
+  /* mid — deliberately unremarkable. Flat warm grays, one khaki accent.
+     The palette is, fittingly, mid. */
+  --md-bg: #e9e9e6;
+  --md-surface: #f6f6f3;
+  --md-ink: #1c1c1a;
+  --md-muted: #76766f;
+  --md-line: #d4d4cf;
+  --md-accent: #9a8f6b;
 }
 
 @theme inline {
@@ -166,6 +175,15 @@
   --font-li-display: var(--font-schibsted);
   --font-li-body: var(--font-inter-tight);
   --font-li-mono: var(--font-jetbrains);
+
+  --color-md-bg: var(--md-bg);
+  --color-md-surface: var(--md-surface);
+  --color-md-ink: var(--md-ink);
+  --color-md-muted: var(--md-muted);
+  --color-md-line: var(--md-line);
+  --color-md-accent: var(--md-accent);
+  --font-md-display: var(--font-anton);
+  --font-md-body: var(--font-work-sans);
 }
 
 html {
