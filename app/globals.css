@@ -39,6 +39,17 @@
   --sq-xp: #f5c451;
   --sq-quest: #7ee0a8;
   --sq-accent: #ff8fb1;
+
+  /* delulu — Y2K hyperpop. Candy lilac, chrome pink/blue, grape.
+     Glossy and unserious-looking but disciplined. */
+  --dl-bg: #f6e9fb;
+  --dl-surface: #ffffff;
+  --dl-ink: #38184f;
+  --dl-muted: #946fb0;
+  --dl-line: #ecd6f2;
+  --dl-pink: #ff6fd8;
+  --dl-blue: #6fb8ff;
+  --dl-grape: #9b4dff;
 }
 
 @theme inline {
@@ -81,6 +92,17 @@
   --font-sq-display: var(--font-baloo);
   --font-sq-body: var(--font-mulish);
   --font-sq-pixel: var(--font-press);
+
+  --color-dl-bg: var(--dl-bg);
+  --color-dl-surface: var(--dl-surface);
+  --color-dl-ink: var(--dl-ink);
+  --color-dl-muted: var(--dl-muted);
+  --color-dl-line: var(--dl-line);
+  --color-dl-pink: var(--dl-pink);
+  --color-dl-blue: var(--dl-blue);
+  --color-dl-grape: var(--dl-grape);
+  --font-dl-display: var(--font-fredoka);
+  --font-dl-body: var(--font-poppins);
 }
 
 html {
