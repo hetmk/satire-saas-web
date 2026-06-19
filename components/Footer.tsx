@@ -21,6 +21,12 @@ export default function Footer() {
             Mindful spending for your attention. A wellness company that is, by
             any reasonable measure, a small fine you opted into.
           </p>
+          <Link
+            href="/"
+            className="mt-4 inline-block text-sm font-semibold text-lilac-deep hover:underline"
+          >
+            ← Department of Unmet Needs
+          </Link>
         </div>
 
         <div className="grid grid-cols-2 gap-10 text-sm sm:grid-cols-3">
