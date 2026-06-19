@@ -131,6 +131,17 @@
   --np-pink: #ff3ea5;
   --np-cyan: #2fe6e0;
   --np-gold: #ffd23f;
+
+  /* Streakr — high-energy habit app. Warm charcoal, flame orange, ember
+     gold, and a cold blue for the day you break it. */
+  --st-bg: #161310;
+  --st-surface: #211c17;
+  --st-line: #342c24;
+  --st-ink: #fbf3ea;
+  --st-muted: #b3a596;
+  --st-flame: #ff6a2b;
+  --st-ember: #ffc24b;
+  --st-cold: #5aa6ff;
 }
 
 @theme inline {
@@ -267,6 +278,17 @@
   --color-np-gold: var(--np-gold);
   --font-np-display: var(--font-rubik);
   --font-np-body: var(--font-dm-sans);
+
+  --color-st-bg: var(--st-bg);
+  --color-st-surface: var(--st-surface);
+  --color-st-line: var(--st-line);
+  --color-st-ink: var(--st-ink);
+  --color-st-muted: var(--st-muted);
+  --color-st-flame: var(--st-flame);
+  --color-st-ember: var(--st-ember);
+  --color-st-cold: var(--st-cold);
+  --font-st-display: var(--font-archivo);
+  --font-st-body: var(--font-figtree);
 }
 
 html {

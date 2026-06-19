@@ -104,6 +104,14 @@ const portfolio = [
     accent: "var(--np-pink)",
     chip: "var(--np-pink)",
   },
+  {
+    name: "Streakr",
+    href: "/streakr",
+    category: "habits",
+    line: "An everything-streak tracker that turns guilt into a habit. You won't build habits — you'll build a hostage situation, and you're both parties.",
+    accent: "var(--st-flame)",
+    chip: "var(--st-flame)",
+  },
 ];
 
 export default function StudioIndex() {
