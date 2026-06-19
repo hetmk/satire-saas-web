@@ -15,6 +15,30 @@
   --lilac-deep: #7e6bb0;
   --blush: #e8c5c1;
   --line: #ddd6ea;
+
+  /* Hindsight — cold, competent analytics. Deep navy slate, azure,
+     amber for the failure callouts. Not near-black+acid-green. */
+  --h-bg: #0d1322;
+  --h-surface: #141d31;
+  --h-surface-2: #1b2742;
+  --h-line: #27324a;
+  --h-ink: #e7ecf5;
+  --h-muted: #8b97ad;
+  --h-accent: #5b9dff;
+  --h-warn: #e0a458;
+  --h-good: #4fc4a1;
+
+  /* side quest — cozy twilight RPG. Warm dark purple, gold XP, mint
+     "complete", playful pink. Pixel-font HUD accents. */
+  --sq-bg: #281d3c;
+  --sq-surface: #362a50;
+  --sq-surface-2: #43345f;
+  --sq-line: #4f3f6e;
+  --sq-ink: #f5eeff;
+  --sq-muted: #b6a6d2;
+  --sq-xp: #f5c451;
+  --sq-quest: #7ee0a8;
+  --sq-accent: #ff8fb1;
 }
 
 @theme inline {
@@ -31,6 +55,32 @@
   --color-line: var(--line);
   --font-display: var(--font-fraunces);
   --font-body: var(--font-nunito);
+
+  --color-h-bg: var(--h-bg);
+  --color-h-surface: var(--h-surface);
+  --color-h-surface-2: var(--h-surface-2);
+  --color-h-line: var(--h-line);
+  --color-h-ink: var(--h-ink);
+  --color-h-muted: var(--h-muted);
+  --color-h-accent: var(--h-accent);
+  --color-h-warn: var(--h-warn);
+  --color-h-good: var(--h-good);
+  --font-h-display: var(--font-space-grotesk);
+  --font-h-body: var(--font-hanken);
+  --font-h-mono: var(--font-plex-mono);
+
+  --color-sq-bg: var(--sq-bg);
+  --color-sq-surface: var(--sq-surface);
+  --color-sq-surface-2: var(--sq-surface-2);
+  --color-sq-line: var(--sq-line);
+  --color-sq-ink: var(--sq-ink);
+  --color-sq-muted: var(--sq-muted);
+  --color-sq-xp: var(--sq-xp);
+  --color-sq-quest: var(--sq-quest);
+  --color-sq-accent: var(--sq-accent);
+  --font-sq-display: var(--font-baloo);
+  --font-sq-body: var(--font-mulish);
+  --font-sq-pixel: var(--font-press);
 }
 
 html {
