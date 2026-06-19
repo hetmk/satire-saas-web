@@ -40,6 +40,14 @@ const portfolio = [
     accent: "var(--dl-grape)",
     chip: "var(--dl-grape)",
   },
+  {
+    name: "aura",
+    href: "/aura",
+    category: "social",
+    line: "A credit score for your whole personality. Gain aura by being unbothered, lose it instantly for cringe.",
+    accent: "var(--au-accent)",
+    chip: "var(--au-accent)",
+  },
 ];
 
 export default function StudioIndex() {
