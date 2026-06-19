@@ -56,6 +56,14 @@ const portfolio = [
     accent: "var(--ds-accent)",
     chip: "var(--ds-accent)",
   },
+  {
+    name: "lock in",
+    href: "/lock-in",
+    category: "productivity",
+    line: "Livestreams your screen to strangers who judge you into productivity. Willpower is unreliable; public shame is forever.",
+    accent: "var(--li-focus)",
+    chip: "var(--li-focus)",
+  },
 ];
 
 export default function StudioIndex() {
