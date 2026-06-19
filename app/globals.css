@@ -50,6 +50,18 @@
   --dl-pink: #ff6fd8;
   --dl-blue: #6fb8ff;
   --dl-grape: #9b4dff;
+
+  /* aura — dark cosmic points tracker. Near-black violet, purple glow,
+     mint for gains, pink for losses. */
+  --au-bg: #0c0a1a;
+  --au-surface: #16122e;
+  --au-surface-2: #1f1940;
+  --au-line: #2b2350;
+  --au-ink: #ece8ff;
+  --au-muted: #9a90c4;
+  --au-accent: #b06bff;
+  --au-pos: #5ef0c4;
+  --au-neg: #ff5e93;
 }
 
 @theme inline {
@@ -103,6 +115,18 @@
   --color-dl-grape: var(--dl-grape);
   --font-dl-display: var(--font-fredoka);
   --font-dl-body: var(--font-poppins);
+
+  --color-au-bg: var(--au-bg);
+  --color-au-surface: var(--au-surface);
+  --color-au-surface-2: var(--au-surface-2);
+  --color-au-line: var(--au-line);
+  --color-au-ink: var(--au-ink);
+  --color-au-muted: var(--au-muted);
+  --color-au-accent: var(--au-accent);
+  --color-au-pos: var(--au-pos);
+  --color-au-neg: var(--au-neg);
+  --font-au-display: var(--font-sora);
+  --font-au-body: var(--font-manrope);
 }
 
 html {
