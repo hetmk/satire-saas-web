@@ -90,6 +90,17 @@
   --md-muted: #76766f;
   --md-line: #d4d4cf;
   --md-accent: #9a8f6b;
+
+  /* beige flag — warm, rounded dating-app. Soft peach, warm-brown ink,
+     red/green/beige verdict colors. */
+  --bf-bg: #fff1ec;
+  --bf-surface: #ffffff;
+  --bf-ink: #3d2b2b;
+  --bf-muted: #9b7d7a;
+  --bf-line: #f4ddd6;
+  --bf-red: #ff5d5d;
+  --bf-green: #5ec77f;
+  --bf-beige: #c9a87c;
 }
 
 @theme inline {
@@ -184,6 +195,17 @@
   --color-md-accent: var(--md-accent);
   --font-md-display: var(--font-anton);
   --font-md-body: var(--font-work-sans);
+
+  --color-bf-bg: var(--bf-bg);
+  --color-bf-surface: var(--bf-surface);
+  --color-bf-ink: var(--bf-ink);
+  --color-bf-muted: var(--bf-muted);
+  --color-bf-line: var(--bf-line);
+  --color-bf-red: var(--bf-red);
+  --color-bf-green: var(--bf-green);
+  --color-bf-beige: var(--bf-beige);
+  --font-bf-display: var(--font-quicksand);
+  --font-bf-body: var(--font-nunito-sans);
 }
 
 html {

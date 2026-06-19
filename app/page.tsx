@@ -72,6 +72,14 @@ const portfolio = [
     accent: "var(--md-accent)",
     chip: "var(--md-accent)",
   },
+  {
+    name: "beige flag",
+    href: "/beige-flag",
+    category: "dating",
+    line: "Paste your situationship's texts and we assign the flags. It's usually beige. Closure, but make it an algorithm.",
+    accent: "var(--bf-beige)",
+    chip: "var(--bf-beige)",
+  },
 ];
 
 export default function StudioIndex() {
