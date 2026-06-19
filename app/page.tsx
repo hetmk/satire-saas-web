@@ -48,6 +48,14 @@ const portfolio = [
     accent: "var(--au-accent)",
     chip: "var(--au-accent)",
   },
+  {
+    name: "doomscroll+",
+    href: "/doomscroll",
+    category: "media",
+    line: "Premium infinite feed with no content, no outrage, no ads — just the pure motion of the scroll. Finally, nothing to see.",
+    accent: "var(--ds-accent)",
+    chip: "var(--ds-accent)",
+  },
 ];
 
 export default function StudioIndex() {
