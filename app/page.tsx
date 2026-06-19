@@ -112,6 +112,14 @@ const portfolio = [
     accent: "var(--st-flame)",
     chip: "var(--st-flame)",
   },
+  {
+    name: "Ghosted",
+    href: "/ghosted",
+    category: "productivity",
+    line: "A relationship CRM that quietly, politely stops replying to people for you. A sales funnel where the product is your absence.",
+    accent: "var(--gh-accent)",
+    chip: "var(--gh-accent)",
+  },
 ];
 
 export default function StudioIndex() {

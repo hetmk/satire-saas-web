@@ -142,6 +142,16 @@
   --st-flame: #ff6a2b;
   --st-ember: #ffc24b;
   --st-cold: #5aa6ff;
+
+  /* Ghosted — calm spectral CRM. Cool pale blue-gray, slate ink,
+     periwinkle accent, and a faded gray for the people you ghost. */
+  --gh-bg: #eef0f6;
+  --gh-surface: #ffffff;
+  --gh-ink: #232838;
+  --gh-muted: #7b8195;
+  --gh-line: #dde0ea;
+  --gh-accent: #6c63ff;
+  --gh-fade: #b9bed0;
 }
 
 @theme inline {
@@ -289,6 +299,16 @@
   --color-st-cold: var(--st-cold);
   --font-st-display: var(--font-archivo);
   --font-st-body: var(--font-figtree);
+
+  --color-gh-bg: var(--gh-bg);
+  --color-gh-surface: var(--gh-surface);
+  --color-gh-ink: var(--gh-ink);
+  --color-gh-muted: var(--gh-muted);
+  --color-gh-line: var(--gh-line);
+  --color-gh-accent: var(--gh-accent);
+  --color-gh-fade: var(--gh-fade);
+  --font-gh-display: var(--font-jakarta);
+  --font-gh-body: var(--font-public-sans);
 }
 
 html {
