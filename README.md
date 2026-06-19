@@ -4,6 +4,16 @@ A starter for building funny **fake-SaaS landing pages** with Claude Code on the
 
 The design plays it straight; the copy carries the joke. Targets Next.js + Tailwind, deploys to Vercel.
 
+## Current build — Tithe
+
+**The fake product:** Tithe, a wellness app that charges you $0.50 every time you open Instagram. "Mindful spending for your attention."
+
+- **Real human truth it exaggerates:** screen-time limits never stick, so we try to guilt ourselves out of our habits — and commitment-device / "pay-when-you-fail" culture is genuinely a thing.
+- **The villain it pretends to fight:** *free* apps. The pitch is that scrolling costs you nothing, so you don't value it — make it cost money and you'll finally be "mindful."
+- **Register:** lowercase, suspiciously calm boutique-wellness earnestness. Punches at startup/wellness-tech culture (commitment apps, surge pricing, "the science*"), never at people.
+- **Signature element:** a serene live "mindfulness ledger" that ticks up the dollars the collective is "mindfully investing" in its attention right now.
+- **Look:** soft pastel — cool lilac mist, deep-plum ink, sage (calming *and* money-green), lavender, blush. Fraunces (display) + Nunito (body). Deliberately not the cream+serif+terracotta default.
+
 ## How to use (Claude Code on the web)
 
 1. Push this repo to GitHub.
