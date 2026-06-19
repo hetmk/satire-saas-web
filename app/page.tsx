@@ -32,6 +32,14 @@ const portfolio = [
     accent: "var(--sq-xp)",
     chip: "var(--sq-xp)",
   },
+  {
+    name: "delulu",
+    href: "/delulu",
+    category: "wellness",
+    line: "Manifestation that gaslights you into confidence. Goals so unrealistic your brain has no choice but to believe them.",
+    accent: "var(--dl-grape)",
+    chip: "var(--dl-grape)",
+  },
 ];
 
 export default function StudioIndex() {
