@@ -62,6 +62,15 @@
   --au-accent: #b06bff;
   --au-pos: #5ef0c4;
   --au-neg: #ff5e93;
+
+  /* doomscroll+ — pristine, expensive minimalism. Warm white, near-black
+     ink, one refined electric-blue accent. */
+  --ds-bg: #fafafa;
+  --ds-surface: #ffffff;
+  --ds-ink: #111317;
+  --ds-muted: #6b7280;
+  --ds-line: #e7e7ea;
+  --ds-accent: #2f6bff;
 }
 
 @theme inline {
@@ -127,6 +136,15 @@
   --color-au-neg: var(--au-neg);
   --font-au-display: var(--font-sora);
   --font-au-body: var(--font-manrope);
+
+  --color-ds-bg: var(--ds-bg);
+  --color-ds-surface: var(--ds-surface);
+  --color-ds-ink: var(--ds-ink);
+  --color-ds-muted: var(--ds-muted);
+  --color-ds-line: var(--ds-line);
+  --color-ds-accent: var(--ds-accent);
+  --font-ds-display: var(--font-bricolage);
+  --font-ds-body: var(--font-inter-ds);
 }
 
 html {
